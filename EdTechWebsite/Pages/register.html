@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="../Pages/index.html"><img src="../Multimedia/new_cn_logo.svg" alt="new_cn_logo"></a>
+        <h1>Create an Account</h1>
+        <nav>
+            <a href="index.html">Home</a> &nbsp;&nbsp;
+            <a href="courses.html">Courses</a>&nbsp;&nbsp;
+            <a href="contact.html">Contact Us</a>&nbsp;&nbsp;
+            <a href="admin.html">Admin</a>&nbsp;&nbsp;
+        </nav>
+        <hr>
+    </header>
+    <form>
+        <fieldset>
+            <legend><b>Personal Info</b></legend>
+            <label for="name">Name</label>
+            <input id="name" type="text" required>
+            <br><br>
+            <label for="mail">email</label>
+            <input id="mail" type="email" required>
+            <br><br>
+            <label for="newUsername">Name</label>
+            <input id="newUsername" type="text" required>
+            <br><br>
+            <label for="newPass">password</label>
+            <input id="newPass" type="password" required>
+            <br><br>
+            <label for="userType">User Type:</label>
+            <select name="userType" id="user-type">
+                <option value="instructor">Instructor</option>
+                <option value="student">Student</option>
+            </select>
+            <br><br>
+            <label for="userCourse">Choose an course:</label>
+            <select name="userCourse" id="user-course">
+                <option value="webDev">Web Developement</option>
+                <option value="dataScience">Data science</option>
+                <option value="digMark">Digital Marketing</option>
+                <option value="androidDev">Android Development</option>
+            </select>
+            <br><br>
+            <button type="submit">Register</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
